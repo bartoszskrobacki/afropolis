@@ -1,0 +1,182 @@
+{
+  "nav": {
+    "home": "Strona Główna",
+    "estate": "Afropolis Estate",
+    "ecoLodge": "Afropolis Eco Lodge",
+    "abApartments": "AB Apartments",
+    "about": "O Nas",
+    "contact": "Kontakt",
+    "gallery": "Galeria",
+    "bookMeeting": "Umów Spotkanie"
+  },
+  "hero": {
+    "title": "Twoje Nowe Miejsce",
+    "subtitle": "na Uśmiechniętym Wybrzeżu Afryki",
+    "viewHomes": "Zobacz Domy",
+    "viewAmenities": "Zobacz Udogodnienia"
+  },
+  "about": {
+    "eyebrow": "Witaj w Afropolis",
+    "title": "Idealne Połączenie Nowoczesności i Natury",
+    "description": "Afropolis to starannie zaprojektowana, bezpieczna enklawa oferująca nowoczesne domy w sercu Gambii. Stworzyliśmy miejsce, w którym komfort spotyka się z egzotyczną przyrodą, a społeczność cieszy się spokojem i luksusowymi udogodnieniami.",
+    "features": {
+      "security": "Bezpieczne, zamknięte osiedle 24/7",
+      "quality": "Wysoki standard wykończenia",
+      "pool": "Dostęp do prywatnego klubu i basenu",
+      "beach": "Zaledwie minuty od plaży"
+    }
+  },
+  "homes": {
+    "title": "Poznaj Domy Twoich Marzeń",
+    "villaKora": {
+      "name": "Villa Kora (Typ A)",
+      "description": "Nowoczesny, piętrowy dom o powierzchni 120 m² z 3 sypialniami, 2 łazienkami i prywatnym ogrodem. Jasne wnętrza i funkcjonalny układ sprawiają, że jest to idealny wybór dla Twojej rodziny."
+    },
+    "villaBalafon": {
+      "name": "Villa Balafon (Typ B)",
+      "description": "Przestronny projekt (140 m²) z dużymi przeszkleniami, tarasem na piętrze i otwartą strefą dzienną. Poczuj luksus i przestrzeń, ciesząc się widokiem na tropikalną zieleń."
+    },
+    "learnMore": "Dowiedz się więcej"
+  },
+  "amenities": {
+    "title": "Relaks i Społeczność na Wyciągnięcie Ręki",
+    "pool": "Wspólny Basen i Strefa Relaksu",
+    "gardens": "Tropikalne Ogrody",
+    "club": "Klub Mieszkańca",
+    "lounge": "Wspólna Strefa Wypoczynku"
+  },
+  "location": {
+    "eyebrow": "Lokalizacja",
+    "title": "Znajdź Swój Raj",
+    "description": "Nasze osiedle znajduje się w dynamicznie rozwijającej się okolicy, która oferuje to, co najlepsze w Gambii. Ciesz się spokojem, będąc jednocześnie blisko tętniących życiem centrów, restauracji i złotych plaż.",
+    "distances": {
+      "beach": "10 min do plaży",
+      "airport": "20 min do lotniska Bandżul",
+      "shops": "5 min do lokalnych sklepów i restauracji"
+    },
+    "mapPlaceholder": "[ Tu będzie osadzona interaktywna Mapa Google ]"
+  },
+  "cta": {
+    "title": "Jesteś zainteresowany?",
+    "description": "Skontaktuj się z nami, aby otrzymać pełną ofertę, cennik i umówić się na prezentację online lub na miejscu. Zrób pierwszy krok do swojego nowego domu na Uśmiechniętym Wybrzeżu Afryki.",
+    "button": "Napisz do Nas"
+  },
+  "footer": {
+    "tagline": "Budujemy marzenia na Uśmiechniętym Wybrzeżu Afryki.",
+    "quickLinks": "Szybkie Linki",
+    "contactUs": "Skontaktuj się z Nami",
+    "officeAddress": "Biuro Sprzedaży, Gambia",
+    "copyright": "© 2025 Afropolis. Wszelkie prawa zastrzeżone."
+  },
+  "contact": {
+    "title": "Skontaktuj się z Nami",
+    "description": "Wypełnij formularz poniżej, a nasz zespół skontaktuje się z Tobą najszybciej jak to możliwe.",
+    "form": {
+      "name": "Imię i nazwisko",
+      "namePlaceholder": "Jan Kowalski",
+      "email": "Adres e-mail",
+      "emailPlaceholder": "jan@example.com",
+      "phone": "Numer telefonu",
+      "phonePlaceholder": "+48 123 456 789",
+      "message": "Wiadomość",
+      "messagePlaceholder": "Opowiedz nam o swoich potrzebach...",
+      "submit": "Wyślij wiadomość",
+      "sending": "Wysyłanie...",
+      "success": "Dziękujemy! Twoja wiadomość została wysłana.",
+      "error": "Wystąpił błąd. Spróbuj ponownie."
+    },
+    "info": {
+      "title": "Informacje kontaktowe",
+      "address": "Adres",
+      "email": "Email",
+      "phone": "Telefon (WhatsApp)"
+    }
+  },
+  "estate": {
+    "hero": {
+      "title": "AFROPOLIS ESTATE",
+      "subtitle": "Kachume - Live on the Smiling Coast of Africa",
+      "tagline": "Just minutes from Atlantic Ocean coast",
+      "cta": "Zobacz Ofertę"
+    },
+    "intro": {
+      "title": "Spokojna oaza w sercu autentycznej Gambii",
+      "description": "Wioska Kachume to malownicze i spokojne miejsce położone w zachodniej Gambii, zaledwie kilka minut drogi od przepięknych i jeszcze dzikich plaż Oceanu Atlantyckiego, kilkadziesiąt minut drogi od tętniących życiem nadmorskich kurortów i 30 minut drogi od lotniska. To wyjątkowy region, gdzie natura, tradycja i nowoczesność spotykają się w harmonii, tworząc idealne warunki do życia, odpoczynku i inwestycji."
+    },
+    "project": {
+      "title": "Nowo powstające osiedle 36 nowoczesnych domów",
+      "description": "To unikalny projekt mieszkaniowy, który łączy komfort współczesnego stylu życia z urokiem afrykańskiej przyrody. Otoczone zielenią palmy, świeże powietrze i przyjazna lokalna społeczność tworzą atmosferę spokoju i bezpieczeństwa, jakiej trudno szukać gdzie indziej.",
+      "access": "Region oferuje łatwy dostęp do głównych dróg, szkół, lokalnych rynków i plaż, a jednocześnie zachowuje ciszę i kameralność, cenioną przez osoby pragnące uciec od miejskiego zgiełku."
+    },
+    "whyKachume": {
+      "title": "Dlaczego Kachume?",
+      "features": {
+        "climate": "Stabilny, słoneczny klimat przez cały rok",
+        "nature": "Bliskość natury i niepowtarzalne widoki",
+        "investment": "Rozwijający się region z potencjałem inwestycyjnym",
+        "community": "Gościnni mieszkańcy i bezpieczne otoczenie",
+        "opportunity": "Doskonała okazja dla inwestorów i osób szukających drugiego domu"
+      },
+      "conclusion": "Kachume to przyszłość komfortowego życia w Gambii – miejsce, gdzie można odnaleźć spokój, wolność i przestrzeń do realizacji marzeń."
+    },
+    "whyInvest": {
+      "title": "Dlaczego warto zainwestować w AFROPOLIS ESTATE w Kachume?",
+      "reasons": {
+        "location": "Strategiczna lokalizacja: blisko oceanu, lotniska, ośrodków miejskich i głównych tras komunikacyjnych",
+        "port": "Nowy port morski w budowie: w rejonie Sanyang powstaje drugi główny i największy w Gambii port pełnomorski, który w najbliższych latach znacząco zwiększy wartość nieruchomości i rozwinie lokalną infrastrukturę",
+        "climate": "Stabilny klimat i bezpieczeństwo: przez cały rok słońce, czyste powietrze i przyjazna społeczność",
+        "development": "Rozwój regionu: inwestycje rządowe i prywatne przyciągają kapitał oraz turystów",
+        "profit": "Wysoki potencjał zysku: Gambia to jedno z najszybciej rozwijających się miejsc inwestycyjnych w Afryce Zachodniej"
+      },
+      "invest": "Zainwestuj w przyszłość",
+      "conclusion": "Osiedle AFROPOLIS ESTATE Kachume to coś więcej niż dom – to styl życia w miejscu, gdzie natura spotyka nowoczesność, a każda inwestycja ma realną wartość na przyszłość."
+    },
+    "offer": {
+      "title": "Nowoczesne Wille 2-pokojowe",
+      "features": {
+        "bedrooms": "2 sypialnie",
+        "pool": "Basen",
+        "restaurant": "Restauracja",
+        "gym": "Siłownia",
+        "market": "Mini Market"
+      },
+      "price": "Od €55,000",
+      "financing": "Plan płatności: 2 lata 0% oprocentowania",
+      "cta": "Zapytaj o szczegóły"
+    }
+  },
+  "ecoLodge": {
+    "title": "Afropolis Eco Lodge",
+    "subtitle": "Autentyczny odpoczynek w sercu natury",
+    "description": "Afropolis Eco Lodge to wyjątkowe miejsce, gdzie możesz doświadczyć prawdziwej Gambii. Otoczeni naturą, oferujemy komfortowe zakwaterowanie i niezapomniane przeżycia.",
+    "accommodation": {
+      "title": "Oferta pobytowa",
+      "description": "Oferujemy różnorodne opcje zakwaterowania dostosowane do Twoich potrzeb."
+    }
+  },
+  "abApartments": {
+    "title": "AB Apartments",
+    "subtitle": "Afropolis Brufut",
+    "description": "Nowoczesne apartamenty w sercu Brufut, oferujące komfort i wygodę dla krótko- i długoterminowych pobytów."
+  },
+  "projects": {
+    "title": "Nasze Projekty",
+    "subtitle": "Odkryj wszystkie projekty Afropolis w Gambii",
+    "estate": {
+      "name": "Afropolis Estate",
+      "tagline": "36 nowoczesnych domów w Kachume",
+      "description": "Nowe osiedle oferujące komfortowe życie w harmonii z naturą. Idealne dla rodzin i inwestorów."
+    },
+    "ecoLodge": {
+      "name": "Afropolis Eco Lodge",
+      "tagline": "Autentyczny pobyt w naturze",
+      "description": "Eko-lodge oferujący niezapomniane doświadczenia w sercu gambijskiej przyrody."
+    },
+    "abApartments": {
+      "name": "AB Apartments",
+      "tagline": "Nowoczesne apartamenty Brufut",
+      "description": "Komfortowe apartamenty w popularnej lokalizacji turystycznej."
+    },
+    "viewProject": "Zobacz Projekt"
+  }
+}

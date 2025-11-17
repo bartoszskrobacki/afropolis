@@ -1,0 +1,182 @@
+{
+  "nav": {
+    "home": "Home",
+    "estate": "Afropolis Estate",
+    "ecoLodge": "Afropolis Eco Lodge",
+    "abApartments": "AB Apartments",
+    "about": "About Us",
+    "contact": "Contact",
+    "gallery": "Gallery",
+    "bookMeeting": "Book a Meeting"
+  },
+  "hero": {
+    "title": "Your New Place",
+    "subtitle": "on the Smiling Coast of Africa",
+    "viewHomes": "View Homes",
+    "viewAmenities": "View Amenities"
+  },
+  "about": {
+    "eyebrow": "Welcome to Afropolis",
+    "title": "Perfect Blend of Modernity and Nature",
+    "description": "Afropolis is a carefully designed, secure enclave offering modern homes in the heart of Gambia. We've created a place where comfort meets exotic nature, and the community enjoys peace and luxurious amenities.",
+    "features": {
+      "security": "Secure, gated community 24/7",
+      "quality": "High standard of finish",
+      "pool": "Access to private club and pool",
+      "beach": "Just minutes from the beach"
+    }
+  },
+  "homes": {
+    "title": "Discover Your Dream Homes",
+    "villaKora": {
+      "name": "Villa Kora (Type A)",
+      "description": "A modern, two-story home with 120 m² featuring 3 bedrooms, 2 bathrooms, and a private garden. Bright interiors and functional layout make it the perfect choice for your family."
+    },
+    "villaBalafon": {
+      "name": "Villa Balafon (Type B)",
+      "description": "Spacious design (140 m²) with large windows, upstairs terrace, and open living area. Experience luxury and space while enjoying views of tropical greenery."
+    },
+    "learnMore": "Learn More"
+  },
+  "amenities": {
+    "title": "Relaxation and Community at Your Fingertips",
+    "pool": "Common Pool and Relaxation Area",
+    "gardens": "Tropical Gardens",
+    "club": "Residents' Club",
+    "lounge": "Common Lounge Area"
+  },
+  "location": {
+    "eyebrow": "Location",
+    "title": "Find Your Paradise",
+    "description": "Our community is located in a dynamically developing area that offers the best of Gambia. Enjoy peace while being close to vibrant centers, restaurants, and golden beaches.",
+    "distances": {
+      "beach": "10 min to the beach",
+      "airport": "20 min to Banjul airport",
+      "shops": "5 min to local shops and restaurants"
+    },
+    "mapPlaceholder": "[ Interactive Google Map will be embedded here ]"
+  },
+  "cta": {
+    "title": "Interested?",
+    "description": "Contact us to receive a full offer, price list, and arrange an online or on-site presentation. Take the first step towards your new home on the Smiling Coast of Africa.",
+    "button": "Contact Us"
+  },
+  "footer": {
+    "tagline": "Building dreams on the Smiling Coast of Africa.",
+    "quickLinks": "Quick Links",
+    "contactUs": "Contact Us",
+    "officeAddress": "Sales Office, Gambia",
+    "copyright": "© 2025 Afropolis. All rights reserved."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Fill out the form below and our team will get back to you as soon as possible.",
+    "form": {
+      "name": "Full name",
+      "namePlaceholder": "John Doe",
+      "email": "Email address",
+      "emailPlaceholder": "john@example.com",
+      "phone": "Phone number",
+      "phonePlaceholder": "+44 123 456 789",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your needs...",
+      "submit": "Send message",
+      "sending": "Sending...",
+      "success": "Thank you! Your message has been sent.",
+      "error": "An error occurred. Please try again."
+    },
+    "info": {
+      "title": "Contact information",
+      "address": "Address",
+      "email": "Email",
+      "phone": "Phone (WhatsApp)"
+    }
+  },
+  "estate": {
+    "hero": {
+      "title": "AFROPOLIS ESTATE",
+      "subtitle": "Kachume - Live on the Smiling Coast of Africa",
+      "tagline": "Just minutes from Atlantic Ocean coast",
+      "cta": "View Offer"
+    },
+    "intro": {
+      "title": "A peaceful oasis in the heart of authentic Gambia",
+      "description": "The village of Kachume is a picturesque and peaceful place located in western Gambia, just minutes from the beautiful and still wild beaches of the Atlantic Ocean, dozens of minutes from vibrant seaside resorts and 30 minutes from the airport. It's a unique region where nature, tradition and modernity meet in harmony, creating ideal conditions for living, relaxation and investment."
+    },
+    "project": {
+      "title": "Newly developed estate of 36 modern homes",
+      "description": "This is a unique residential project that combines the comfort of modern lifestyle with the charm of African nature. Surrounded by greenery of palm trees, fresh air and a friendly local community create an atmosphere of peace and security that is hard to find elsewhere.",
+      "access": "The region offers easy access to main roads, schools, local markets and beaches, while maintaining the silence and intimacy valued by those wishing to escape the urban hustle."
+    },
+    "whyKachume": {
+      "title": "Why Kachume?",
+      "features": {
+        "climate": "Stable, sunny climate year-round",
+        "nature": "Proximity to nature and unique views",
+        "investment": "Developing region with investment potential",
+        "community": "Hospitable residents and safe environment",
+        "opportunity": "Excellent opportunity for investors and those seeking a second home"
+      },
+      "conclusion": "Kachume is the future of comfortable living in Gambia – a place where you can find peace, freedom and space to realize your dreams."
+    },
+    "whyInvest": {
+      "title": "Why invest in AFROPOLIS ESTATE in Kachume?",
+      "reasons": {
+        "location": "Strategic location: close to the ocean, airport, urban centers and main communication routes",
+        "port": "New seaport under construction: in the Sanyang area, the second main and largest seaport in Gambia is being built, which in the coming years will significantly increase property values and develop local infrastructure",
+        "climate": "Stable climate and security: year-round sunshine, clean air and friendly community",
+        "development": "Regional development: government and private investments attract capital and tourists",
+        "profit": "High profit potential: Gambia is one of the fastest-growing investment locations in West Africa"
+      },
+      "invest": "Invest in the future",
+      "conclusion": "AFROPOLIS ESTATE Kachume is more than a home – it's a lifestyle in a place where nature meets modernity, and every investment has real value for the future."
+    },
+    "offer": {
+      "title": "Modern 2-Bedroom Villas",
+      "features": {
+        "bedrooms": "2 bedrooms",
+        "pool": "Pool",
+        "restaurant": "Restaurant",
+        "gym": "Gym",
+        "market": "Mini Market"
+      },
+      "price": "From €55,000",
+      "financing": "Payment plan: 2 years 0% interest",
+      "cta": "Ask for details"
+    }
+  },
+  "ecoLodge": {
+    "title": "Afropolis Eco Lodge",
+    "subtitle": "Authentic relaxation in the heart of nature",
+    "description": "Afropolis Eco Lodge is a unique place where you can experience the real Gambia. Surrounded by nature, we offer comfortable accommodation and unforgettable experiences.",
+    "accommodation": {
+      "title": "Accommodation offer",
+      "description": "We offer various accommodation options tailored to your needs."
+    }
+  },
+  "abApartments": {
+    "title": "AB Apartments",
+    "subtitle": "Afropolis Brufut",
+    "description": "Modern apartments in the heart of Brufut, offering comfort and convenience for short and long-term stays."
+  },
+  "projects": {
+    "title": "Our Projects",
+    "subtitle": "Discover all Afropolis projects in Gambia",
+    "estate": {
+      "name": "Afropolis Estate",
+      "tagline": "36 modern homes in Kachume",
+      "description": "New estate offering comfortable living in harmony with nature. Ideal for families and investors."
+    },
+    "ecoLodge": {
+      "name": "Afropolis Eco Lodge",
+      "tagline": "Authentic stay in nature",
+      "description": "Eco-lodge offering unforgettable experiences in the heart of Gambian nature."
+    },
+    "abApartments": {
+      "name": "AB Apartments",
+      "tagline": "Modern Brufut apartments",
+      "description": "Comfortable apartments in a popular tourist location."
+    },
+    "viewProject": "View Project"
+  }
+}

@@ -1,36 +1,125 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Afropolis - Next.js Multilingual Website
+
+A modern, bilingual (Polish/English) website for Afropolis real estate project in Gambia, built with Next.js 14+, TypeScript, Tailwind CSS, and next-intl.
+
+## Features
+
+- **Multilingual Support**: Polish (default) and English with `next-intl`
+- **Modern Design System**: Portable design system with reusable components
+- **Responsive**: Mobile-first design that works on all devices
+- **TypeScript**: Fully typed for better developer experience
+- **shadcn/ui**: Beautiful, accessible UI components
+- **EmailJS Integration**: Contact form with email functionality
+- **Image Optimization**: Next.js Image component for optimal performance
+- **SEO Ready**: Proper meta tags and semantic HTML
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+
+- npm, yarn, or pnpm
+
+### Installation
+
+1. **Install dependencies:**
+
+```bash
+npm install
+```
+
+2. **Configure EmailJS (for contact form):**
+
+   - Sign up at [EmailJS](https://www.emailjs.com/)
+   - Create an email service and template
+   - Update `src/app/[locale]/contact/page.tsx` with your credentials:
+
+```typescript
+const result = await emailjs.send(
+  'YOUR_SERVICE_ID',      // Replace with your Service ID
+  'YOUR_TEMPLATE_ID',     // Replace with your Template ID
+  { /* template params */ },
+  'YOUR_PUBLIC_KEY'       // Replace with your Public Key
+);
+```
+
+3. **Run the development server:**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to see the website.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## Internationalization
 
-To learn more about Next.js, take a look at the following resources:
+The website supports Polish and English:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Polish**: `http://localhost:3000` (default)
+- **English**: `http://localhost:3000/en`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Adding/Editing Translations
 
-## Deploy on Vercel
+Edit the translation files in the `messages/` directory:
+- `messages/pl.json` - Polish translations
+- `messages/en.json` - English translations
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Design System
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The design system is located in `src/design-system/` and is portable - you can copy it to other projects.
+
+### Brand Colors
+
+Defined in `src/app/globals.css`:
+- **Afro Blue**: `#1a3a8b`
+- **Afro Orange**: `#f9a626`
+- **Afro Green**: `#059669`
+
+### Using Design System Components
+
+```typescript
+import { Container, Section } from '@/design-system';
+
+<Section variant="gray">
+  <Container>
+    {/* Your content */}
+  </Container>
+</Section>
+```
+
+## Pages
+
+- **Home** (`/`): Hero, about preview, amenities, location, CTA
+- **About** (`/about`): Detailed information
+- **Homes** (`/homes`): Property listings
+- **Gallery** (`/gallery`): Photo gallery
+- **Contact** (`/contact`): Contact form with EmailJS
+
+## Technologies
+
+- [Next.js 14+](https://nextjs.org/) - React framework
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [next-intl](https://next-intl.dev/) - Internationalization
+- [shadcn/ui](https://ui.shadcn.com/) - UI components
+- [EmailJS](https://www.emailjs.com/) - Email service
+
+## Deployment
+
+Deploy to [Vercel](https://vercel.com) (recommended):
+1. Push code to GitHub
+2. Import repository to Vercel
+3. Deploy automatically
+
+Also supports: Netlify, AWS Amplify, Railway, DigitalOcean
+
+## License
+
+© 2025 Afropolis. All rights reserved.

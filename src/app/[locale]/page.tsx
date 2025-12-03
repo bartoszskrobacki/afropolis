@@ -44,14 +44,15 @@ export default function HomePage() {
         {/* Hero Section */}
         <section className="relative h-[70vh] min-h-[500px] bg-cover bg-center" style={{ backgroundImage: "url('/basen-z-palmami-tropikalny.JPG')" }}>
           <Container className="relative z-10 h-full flex flex-col justify-center items-center text-center text-white">
-            <h1 className="text-5xl md:text-6xl font-extrabold mb-4 drop-shadow-lg">Afropolis</h1>
-            <p className="text-2xl md:text-4xl font-bold mb-8 drop-shadow-md">{tHero("subtitle")}</p>
+            <div className="bg-white rounded-full px-12 py-8 mb-8 drop-shadow-lg">
+              <Image src="/logo.png" alt="Afropolis" width={400} height={200} priority />
+            </div>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <Link href={`/${locale}/estate`}>
                 <Button className="bg-afro-orange hover:bg-afro-orange/90 text-white font-bold py-6 px-8 text-lg shadow-xl">{t("viewProject")}</Button>
               </Link>
               <Link href={`/${locale}/contact`}>
-                <Button variant="outline" className="bg-transparent border-2 border-white text-white font-bold py-6 px-8 text-lg hover:bg-white/10">
+                <Button variant="outline" className="bg-white border-2 border-white text-black font-bold py-6 px-8 text-lg hover:bg-white/95">
                   {locale === "pl" ? "Kontakt" : "Contact"}
                 </Button>
               </Link>

@@ -1,13 +1,13 @@
-'use client';
+"use client";
 
-import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import { useTranslations, useLocale } from 'next-intl';
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
+import { useTranslations, useLocale } from "next-intl";
 
 export const Footer: React.FC = () => {
-  const t = useTranslations('footer');
-  const tNav = useTranslations('nav');
+  const t = useTranslations("footer");
+  const tNav = useTranslations("nav");
   const locale = useLocale();
 
   return (
@@ -15,16 +15,8 @@ export const Footer: React.FC = () => {
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12">
         {/* Column 1: Logo and Description */}
         <div>
-          <Image
-            src="/zdjecie-dodatkowe-01.JPG"
-            alt="Afropolis Logo"
-            width={180}
-            height={45}
-            className="h-14 w-auto object-contain mb-4 brightness-200"
-          />
-          <p className="text-gray-400 leading-relaxed max-w-xs">
-            {t('tagline')}
-          </p>
+          <Image src="/logo.png" alt="Afropolis Logo" width={180} height={45} className="h-14 w-auto object-contain mb-4 bg-white rounded-full p-2" />
+          <p className="text-gray-400 leading-relaxed max-w-xs">{t("tagline")}</p>
           {/* Social Media Icons */}
           <div className="flex space-x-4 mt-6">
             <a href="#" className="text-gray-400 hover:text-white transition-colors" aria-label="Facebook">
@@ -38,9 +30,7 @@ export const Footer: React.FC = () => {
             </a>
             <a href="#" className="text-gray-400 hover:text-white transition-colors" aria-label="Twitter">
               <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path
-                  d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
-                />
+                <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
               </svg>
             </a>
             <a href="#" className="text-gray-400 hover:text-white transition-colors" aria-label="Instagram">
@@ -57,36 +47,36 @@ export const Footer: React.FC = () => {
 
         {/* Column 2: Quick Links */}
         <div>
-          <h4 className="text-white text-lg font-bold mb-4">{t('quickLinks')}</h4>
+          <h4 className="text-white text-lg font-bold mb-4">{t("quickLinks")}</h4>
           <ul className="space-y-2">
             <li>
               <Link href={`/${locale}/estate`} className="hover:text-white transition-colors">
-                {tNav('estate')}
+                {tNav("estate")}
               </Link>
             </li>
             <li>
               <Link href={`/${locale}/eco-lodge`} className="hover:text-white transition-colors">
-                {tNav('ecoLodge')}
+                {tNav("ecoLodge")}
               </Link>
             </li>
             <li>
               <Link href={`/${locale}/ab-apartments`} className="hover:text-white transition-colors">
-                {tNav('abApartments')}
+                {tNav("abApartments")}
               </Link>
             </li>
             <li>
               <Link href={`/${locale}/about`} className="hover:text-white transition-colors">
-                {tNav('about')}
+                {tNav("about")}
               </Link>
             </li>
             <li>
               <Link href={`/${locale}/gallery`} className="hover:text-white transition-colors">
-                {tNav('gallery')}
+                {tNav("gallery")}
               </Link>
             </li>
             <li>
               <Link href={`/${locale}/contact`} className="hover:text-white transition-colors">
-                {tNav('contact')}
+                {tNav("contact")}
               </Link>
             </li>
           </ul>
@@ -94,21 +84,21 @@ export const Footer: React.FC = () => {
 
         {/* Column 3: Contact */}
         <div>
-          <h4 className="text-white text-lg font-bold mb-4">{t('contactUs')}</h4>
+          <h4 className="text-white text-lg font-bold mb-4">{t("contactUs")}</h4>
           <ul className="space-y-2">
             <li className="flex items-center">
-              <span className="mr-2">📍</span> {t('officeAddress')}
+              <span className="mr-2">📍</span> {t("officeAddress")} Siedziba: Katchume Village. The Gambia
             </li>
             <li className="flex items-center">
               <span className="mr-2">✉️</span>
-              <a href="mailto:sprzedaz@afropolis.com" className="hover:text-white transition-colors">
-                sprzedaz@afropolis.com
+              <a href="mailto:info@afropolisgambia.com" className="hover:text-white transition-colors">
+                info@afropolisgambia.com
               </a>
             </li>
             <li className="flex items-center">
               <span className="mr-2">📞</span>
-              <a href="tel:+220123456" className="hover:text-white transition-colors">
-                +220 123 456 (WhatsApp)
+              <a href="tel:+220 787 4136" className="hover:text-white transition-colors">
+                Ousman: +220 787 4136 Marek: +220 238 2612
               </a>
             </li>
           </ul>
@@ -116,7 +106,7 @@ export const Footer: React.FC = () => {
       </div>
 
       <div className="container mx-auto px-6 text-center border-t border-gray-700 mt-12 pt-8">
-        <p className="text-gray-400">{t('copyright')}</p>
+        <p className="text-gray-400">{t("copyright")}</p>
       </div>
     </footer>
   );

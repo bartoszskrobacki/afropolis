@@ -40,7 +40,7 @@ export default function ContactPage() {
           from_email: formData.email,
           phone: formData.phone,
           message: formData.message,
-          to_email: 'sprzedaz@afropolis.com',
+          to_email: 'info@afropolisgambia.com',
         },
         'YOUR_PUBLIC_KEY'
       );
@@ -179,10 +179,10 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-semibold text-afro-blue mb-2">{t('info.email')}</h3>
                       <a
-                        href="mailto:sprzedaz@afropolis.com"
+                        href="mailto:info@afropolisgambia.com"
                         className="text-gray-700 hover:text-afro-orange transition-colors"
                       >
-                        sprzedaz@afropolis.com
+                        info@afropolisgambia.com
                       </a>
                     </div>
 

@@ -61,14 +61,7 @@ export default function ABApartmentsPage() {
 
             {/* Gallery */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {[
-                "/zdjecie-dodatkowe-05.JPG",
-                "/zdjecie-dodatkowe-06.JPG",
-                "/zdjecie-dodatkowe-07.JPG",
-                "/zdjecie-dodatkowe-08.JPG",
-                "/basen-z-ludzmi-lifestyle.JPG",
-                "/klub-mieszkanca-wnetrze.JPG",
-              ].map((src, index) => (
+              {["/ablodge_1.jpg", "/ablodge_2.jpg", "/ablodge_3.jpg", "/ablodge_4.jpg", "/ablodge_5.jpg", "/ablodge_6.jpg"].map((src, index) => (
                 <div key={index} className="rounded-lg overflow-hidden shadow-lg relative h-64">
                   <Image src={src} alt={`AB Apartments ${index + 1}`} fill className="object-cover hover:scale-105 transition-transform duration-300" />
                 </div>

@@ -16,7 +16,7 @@ export default function EcoLodgePage() {
       <Header />
       <main>
         {/* Hero Section */}
-        <section className="relative h-[60vh] min-h-[400px] bg-cover bg-center" style={{ backgroundImage: "url('/basen-z-palmami-tropikalny.JPG')" }}>
+        <section className="relative h-[60vh] min-h-[400px] bg-cover bg-center" style={{ backgroundImage: "url('/ecolodge_2.jpg')" }}>
           <Container className="relative z-10 h-full flex flex-col justify-center items-center text-center text-white">
             <h1 className="text-5xl md:text-6xl font-extrabold mb-4 drop-shadow-lg">{t("title")}</h1>
             <p className="text-2xl md:text-3xl mb-8 drop-shadow-md">{t("subtitle")}</p>
@@ -45,14 +45,7 @@ export default function EcoLodgePage() {
 
             {/* Gallery */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {[
-                "/basen-z-ludzmi-lifestyle.JPG",
-                "/klub-mieszkanca-wnetrze.JPG",
-                "/zdjecie-dodatkowe-01.JPG",
-                "/zdjecie-dodatkowe-02.JPG",
-                "/zdjecie-dodatkowe-03.JPG",
-                "/zdjecie-dodatkowe-04.JPG",
-              ].map((src, index) => (
+              {["/ecolodge_1.jpg", "/ecolodge_2.jpg", "/ecolodge_3.jpg", "/ecolodge_4.jpg", "/ecolodge_5.jpg", "/ecolodge_6.jpg"].map((src, index) => (
                 <div key={index} className="rounded-lg overflow-hidden shadow-lg relative h-64">
                   <Image src={src} alt={`Eco Lodge ${index + 1}`} fill className="object-cover hover:scale-105 transition-transform duration-300" />
                 </div>

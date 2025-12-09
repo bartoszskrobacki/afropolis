@@ -39,22 +39,10 @@
     "learnMore": "Dowiedz się więcej"
   },
   "amenities": {
-    "title": "Relaks i Społeczność na Wyciągnięcie Ręki",
-    "pool": "Wspólny Basen i Strefa Relaksu",
-    "gardens": "Tropikalne Ogrody",
-    "club": "Klub Mieszkańca",
-    "lounge": "Wspólna Strefa Wypoczynku"
-  },
-  "location": {
-    "eyebrow": "Lokalizacja",
-    "title": "Znajdź Swój Raj",
-    "description": "Nasze osiedle znajduje się w dynamicznie rozwijającej się okolicy, która oferuje to, co najlepsze w Gambii. Ciesz się spokojem, będąc jednocześnie blisko tętniących życiem centrów, restauracji i złotych plaż.",
-    "distances": {
-      "beach": "10 min do plaży",
-      "airport": "20 min do lotniska Bandżul",
-      "shops": "5 min do lokalnych sklepów i restauracji"
-    },
-    "mapPlaceholder": "[ Tu będzie osadzona interaktywna Mapa Google ]"
+    "title": "Udogodnienia",
+    "ecoLodge": "Afropolis Eco Lodge",
+    "abApartments": "AB Apartments",
+    "estate": "Afropolis Estate Ketchume"
   },
   "cta": {
     "title": "Jesteś zainteresowany?",

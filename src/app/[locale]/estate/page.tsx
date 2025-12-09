@@ -17,14 +17,18 @@ export default function EstatePage() {
       <Header />
       <main>
         {/* Hero Section */}
-        <section className="relative h-[60vh] min-h-[400px] bg-cover bg-center" style={{ backgroundImage: "url('/basen-z-palmami-tropikalny.JPG')" }}>
+        <section className="relative h-[70vh] min-h-[500px] bg-cover bg-center" style={{ backgroundImage: "url('/basen-z-palmami-tropikalny.JPG')" }}>
           <Container className="relative z-10 h-full flex flex-col justify-center items-center text-center text-white">
-            <h1 className="text-5xl md:text-6xl font-extrabold mb-4 drop-shadow-lg">{t("hero.title")}</h1>
-            <p className="text-2xl md:text-3xl font-semibold mb-2 drop-shadow-md">{t("hero.subtitle")}</p>
-            <p className="text-xl md:text-2xl mb-8 drop-shadow-md">{t("hero.tagline")}</p>
-            <Link href={`/${locale}/contact`}>
-              <Button className="bg-afro-orange hover:bg-afro-orange/90 text-white font-bold py-6 px-10 text-lg shadow-2xl">{t("hero.cta")}</Button>
-            </Link>
+            <div className="bg-white rounded-full px-12 py-8 mb-8 drop-shadow-lg">
+              <Image src="/logo.png" alt="Afropolis" width={400} height={200} priority />
+            </div>
+            <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+              <Link href={`/${locale}/contact`}>
+                <Button variant="outline" className="bg-white border-2 border-white text-black font-bold py-6 px-8 text-lg hover:bg-white/95">
+                  {locale === "pl" ? "Kontakt" : "Contact"}
+                </Button>
+              </Link>
+            </div>
           </Container>
         </section>
 
@@ -153,8 +157,8 @@ export default function EstatePage() {
               <h2 className="text-3xl md:text-4xl font-extrabold text-afro-blue text-center mb-12">{t("offer.title")}</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
                 <Card className="overflow-hidden shadow-xl">
-                  <div className="relative h-64">
-                    <Image src="/dom-typ-a-villa-kora.JPG" alt="Modern Villa" fill className="object-cover" />
+                  <div className="relative h-96">
+                    <Image src="/katchume_2.jpg" alt="Modern Villa" fill />
                   </div>
                   <CardContent className="p-8">
                     <ul className="space-y-3 text-gray-800 text-lg">
@@ -195,13 +199,20 @@ export default function EstatePage() {
           <Container>
             <h2 className="text-3xl md:text-4xl font-extrabold text-afro-blue text-center mb-12">Zobacz Galerię</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-              {["/basen-z-palmami-tropikalny.JPG", "/dom-typ-a-villa-kora.JPG", "/dom-typ-b-villa-balafon.JPG", "/klub-mieszkanca-wnetrze.JPG"].map(
-                (src, index) => (
-                  <div key={index} className="relative h-48 rounded-lg overflow-hidden shadow-md">
-                    <Image src={src} alt={`Gallery ${index + 1}`} fill className="object-cover hover:scale-110 transition-transform duration-300" />
-                  </div>
-                )
-              )}
+              {[
+                "/katchume_01.jpg",
+                "/katchume_2.jpg",
+                "/katchume_3.jpg",
+                "/katchume_4.jpg",
+                "/katchume_5.jpg",
+                "/katchume_6.jpg",
+                "/katchume_7.jpg",
+                "/katchume_8.jpg",
+              ].map((src, index) => (
+                <div key={index} className="relative h-48 rounded-lg overflow-hidden shadow-md">
+                  <Image src={src} alt={`Gallery ${index + 1}`} fill className="object-cover hover:scale-110 transition-transform duration-300" />
+                </div>
+              ))}
             </div>
             <div className="text-center">
               <Link href={`/${locale}/gallery`}>

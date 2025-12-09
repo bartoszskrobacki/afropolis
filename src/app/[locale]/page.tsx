@@ -18,7 +18,7 @@ export default function HomePage() {
       name: t("estate.name"),
       tagline: t("estate.tagline"),
       description: t("estate.description"),
-      image: "/katchume_villa.jpg",
+      image: "/katchume_01.jpg",
       href: `/${locale}/estate`,
     },
     {
@@ -99,13 +99,13 @@ export default function HomePage() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
               {[
                 "/basen-z-palmami-tropikalny.JPG",
-                "/dom-typ-a-villa-kora.JPG",
-                "/dom-typ-b-villa-balafon.JPG",
-                "/klub-mieszkanca-wnetrze.JPG",
-                "/zdjecie-dodatkowe-01.JPG",
-                "/zdjecie-dodatkowe-02.JPG",
-                "/zdjecie-dodatkowe-03.JPG",
-                "/zdjecie-dodatkowe-04.JPG",
+                "/ecolodge_1.jpg",
+                "/ecolodge_3.JPG",
+                "/ecolodge_4.JPG",
+                "/ablodge_2.jpg",
+                "/katchume_2.jpg",
+                "/katchume_3.jpg",
+                "/katchume_4.jpg",
               ].map((src, index) => (
                 <div key={index} className="relative h-48 rounded-lg overflow-hidden shadow-md">
                   <Image src={src} alt={`Gallery ${index + 1}`} fill className="object-cover hover:scale-110 transition-transform duration-300" />

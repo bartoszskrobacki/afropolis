@@ -39,11 +39,10 @@
     "learnMore": "Learn More"
   },
   "amenities": {
-    "title": "Relaxation and Community at Your Fingertips",
-    "pool": "Common Pool and Relaxation Area",
-    "gardens": "Tropical Gardens",
-    "club": "Residents' Club",
-    "lounge": "Common Lounge Area"
+    "title": "Amenities",
+    "ecoLodge": "Afropolis Eco Lodge",
+    "abApartments": "AB Apartments",
+    "estate": "Afropolis Estate Ketchume"
   },
   "location": {
     "eyebrow": "Location",

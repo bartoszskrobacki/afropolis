@@ -200,7 +200,7 @@ export default function EstatePage() {
             <h2 className="text-3xl md:text-4xl font-extrabold text-afro-blue text-center mb-12">Zobacz Galerię</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
               {[
-                "/katchume_01.jpg",
+                "/katchume_1.jpg",
                 "/katchume_2.jpg",
                 "/katchume_3.jpg",
                 "/katchume_4.jpg",

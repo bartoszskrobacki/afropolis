@@ -18,7 +18,7 @@ export default function HomePage() {
       name: t("estate.name"),
       tagline: t("estate.tagline"),
       description: t("estate.description"),
-      image: "/katchume_01.jpg",
+      image: "/katchume_1.jpg",
       href: `/${locale}/estate`,
     },
     {
@@ -100,7 +100,7 @@ export default function HomePage() {
               {[
                 "/basen-z-palmami-tropikalny.JPG",
                 "/ecolodge_1.jpg",
-                "/ecolodge_3.JPG",
+                "/ecolodge_3.jpg",
                 "/ecolodge_4.JPG",
                 "/ablodge_2.jpg",
                 "/katchume_2.jpg",

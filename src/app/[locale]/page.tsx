@@ -101,7 +101,7 @@ export default function HomePage() {
                 "/basen-z-palmami-tropikalny.JPG",
                 "/ecolodge_1.jpg",
                 "/ecolodge_3.jpg",
-                "/ecolodge_4.JPG",
+                "/ecolodge_4.jpg",
                 "/ablodge_2.jpg",
                 "/katchume_2.jpg",
                 "/katchume_3.jpg",
